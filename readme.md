@@ -5,7 +5,7 @@
 - More page
 - custom
 - animation 
-
+- embed
 ## Known bugs
 - custom cursor (broken)
 
