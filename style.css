@@ -1,0 +1,164 @@
+body {
+    cursor: url("assets/pointer.cur"), auto;
+    margin: 0;
+    line-height: normal;
+}
+
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #24273a;
+    width: 100%;
+    height: 100vh;
+}
+
+.group-item {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 50px 154.6px 35px rgba(0, 0, 0, 0.44);
+    border-radius: 10px;
+    background-color: #313244;
+    width: 80%;
+    max-width: 1000px;
+    height: 60px;
+}
+
+.blank-line {
+    margin: 0;
+}
+
+.span {
+    color: #fff;
+}
+
+.mxc {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: #cad3f5;
+}
+
+.a1 {
+    color: #cad3f5;
+}
+
+.a {
+    font-family: Inter, sans-serif;
+}
+
+.student {
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: #8aadf4;
+    transition-duration: 1s;
+}
+
+.student:hover {
+    transition-duration: 1s;
+    color: #74c7ec;
+    cursor: url("assets/cursor.png") 16 16, auto;
+}
+
+.text {
+    margin: 0;
+    color: #fff;
+}
+
+.text1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.text2 {
+    margin: 0;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.favicon-1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+.about-me {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1001px;
+    height: 60px;
+}
+
+.rectangle-parent {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    font-size: 32px;
+    color: #cad3f5;
+    font-family: Inter, sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .group-item,
+    .about-me {
+        width: 90%;
+        height: 50px;
+    }
+
+    .favicon-1 {
+        width: 96px;
+        height: 96px;
+    }
+
+    .rectangle-parent {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .group-item,
+    .about-me {
+        width: 95%;
+        height: 45px;
+    }
+
+    .favicon-1 {
+        width: 64px;
+        height: 64px;
+    }
+
+    .rectangle-parent {
+        font-size: 18px;
+    }
+}
